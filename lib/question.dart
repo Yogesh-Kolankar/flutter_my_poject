@@ -7,6 +7,9 @@ class Question extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(questiontext,style:TextStyle(fontSize: 26,color:Color. ),);
+    return Text(
+      questiontext,
+      style: TextStyle(fontSize: 26, color: Colors.amber),
+    );
   }
 }
