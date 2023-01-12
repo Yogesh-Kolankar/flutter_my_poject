@@ -34,7 +34,7 @@ class MyAppState extends State<MyApp> {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("First app"),
+              title: Text("First Flutter App"),
             ),
             body: Center(
                 child: Container(
